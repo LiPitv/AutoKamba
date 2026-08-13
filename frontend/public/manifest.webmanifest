@@ -1,0 +1,24 @@
+{
+  "name": "AutoKamba — O teu parceiro na estrada",
+  "short_name": "AutoKamba",
+  "description": "Assistência automóvel rápida e segura em Luanda. Peça ajuda em segundos e acompanhe o profissional em tempo real.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#00B86B",
+  "theme_color": "#00B86B",
+  "lang": "pt-AO",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

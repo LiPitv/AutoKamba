@@ -1,0 +1,11 @@
+parameters:
+    level: 4
+    paths:
+        - backend/src
+    bootstrapFiles:
+        - backend/config/phpstan-bootstrap.php
+    dynamicConstantNames:
+        - AMBIENTE
+    tmpDir: backend/tests/.phpstan-cache
+    parallel:
+        maximumNumberOfProcesses: 1

@@ -1,0 +1,18 @@
+# Dependências
+node_modules/
+dist/
+vendor/
+
+# Ambiente
+.env
+!.env.example
+
+# Logs e uploads
+backend/storage/logs/*.log
+uploads/*
+!uploads/.gitkeep
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
